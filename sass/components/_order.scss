@@ -28,9 +28,9 @@
 
     color: $white-color;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.36;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
     
 }
@@ -43,22 +43,23 @@
 
 @keyframes slide  {
     0% {opacity: 0;
-        letter-spacing: 0.06em;
-        transform: translateY(-50px);
+        letter-spacing: 0.1em;
+        transform: translateY(-70px);
 
     }
     
-    30% {opacity: 0.6;
+    30% {opacity: 0.4;
         transform: translateY(0);
         }
 
     70% {
         opacity: 1;
-        letter-spacing: 0.3em;
+        letter-spacing: 0.01em;
     }
     
     100% {opacity: 1;
-        letter-spacing: 0.06em;}
+        letter-spacing: 0.06em;
+    }
     
 }
 
